@@ -1,13 +1,13 @@
 #!/bin/sh
 
 function cloneRepo() {
-	if [[ -n $1 ]]; then
-		if [[ -n $2 ]]; then
-			git clone $1 --branch $2
-		else
-			git clone $1 --master	
-		fi
-	fi
+    if [[ -n $1 ]]; then
+        if [[ -n $2 ]]; then
+            git clone $1 --branch $2
+        else
+            git clone $1 --master   
+        fi
+    fi
     cd $WORKSPACE/$repoName
     ls|egrep "\w+-\d+"|xargs rm -rf
 }
@@ -137,8 +137,14 @@ function push() {
     pod repo push $pods $podspec --allow-warnings --use-libraries --sources=https://git.oschina.net/ambitious/SLBSource.git,master --verbose
 }
 
+repo="https://github.com/Bupterambition/AwesomeIntroGuideView.git"
+version="1.0.10"
+branch="master"
 tp="static"
+WORKSPACE=`pwd`
+repoName="AwesomeIntroGuideView"
 frameworksdir="/Users/soulkiller/Documents/Frameworks"
+rm -rf $repoName
 
 cloneRepo $repo $branch
 
