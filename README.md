@@ -148,7 +148,10 @@ just clone the repo , check the my code
 ## Author
 
 bupterAmbition，bupterambition@gmail.com
+wusizhen.arch@bytedance.com
 
 ## License
 
 AwesomeIntroGuideView is available under the MIT license. See the LICENSE file for more info.
+
+
