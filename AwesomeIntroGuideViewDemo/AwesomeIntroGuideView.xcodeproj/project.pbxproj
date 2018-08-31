@@ -151,8 +151,6 @@
 				C462A8301DC2201800306DE5 /* Sources */,
 				C462A8311DC2201800306DE5 /* Frameworks */,
 				C462A8321DC2201800306DE5 /* Resources */,
-				BFF2D08458C2464A2D32531D /* [CP] Embed Pods Frameworks */,
-				8906B4DF4090D2EEF157F301 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -241,36 +239,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8906B4DF4090D2EEF157F301 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AwesomeIntroGuideView/Pods-AwesomeIntroGuideView-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BFF2D08458C2464A2D32531D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AwesomeIntroGuideView/Pods-AwesomeIntroGuideView-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		EFD9F709DA8D7E0C39E43666 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

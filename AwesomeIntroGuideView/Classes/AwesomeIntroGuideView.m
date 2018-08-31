@@ -336,6 +336,7 @@ CG_INLINE BOOL Awesome_IS_EMPTY(id thing) {
 
 - (void)setup {
     // Default
+    self.guideImageView.userInteractionEnabled = YES;
     self.autoCalculateGuidePoint = YES;
     self.animationDuration = kAnimationDuration;
     self.cutoutRadius = kCutoutRadius;
@@ -628,7 +629,6 @@ CG_INLINE BOOL Awesome_IS_EMPTY(id thing) {
 }
 //给view添加方法
 - (void)addActionForView:(UIView *)view {
-    view.userInteractionEnabled = YES;
     [view addGestureRecognizer:({
         UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(didTouchGuideImage)];
         tap;
